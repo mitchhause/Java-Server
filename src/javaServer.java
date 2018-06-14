@@ -15,7 +15,7 @@ public class javaServer {
 
 	public static void main(String[] args) throws IOException 
 	{
-		final int portNumber = 8080;
+		final int portNumber = 80;
 		final ServerSocket server = new ServerSocket(portNumber);
 		// TODO Auto-generated method stub
 		System.out.print("Listening now...");
